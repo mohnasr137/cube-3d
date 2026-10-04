@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <linearGradient id="gradTop" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ff3366" />
+      <stop offset="100%" stop-color="#ff6b8b" />
+    </linearGradient>
+    <linearGradient id="gradLeft" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2b5876" />
+      <stop offset="100%" stop-color="#4e4376" />
+    </linearGradient>
+    <linearGradient id="gradRight" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3388ff" />
+      <stop offset="100%" stop-color="#00ccff" />
+    </linearGradient>
+  </defs>
+  <path d="M32 4 L58 19 L32 34 L6 19 Z" fill="url(#gradTop)" stroke="#ffffff" stroke-width="1.5" stroke-linejoin="round"/>
+  <path d="M6 19 L32 34 L32 60 L6 45 Z" fill="url(#gradLeft)" stroke="#ffffff" stroke-width="1.5" stroke-linejoin="round"/>
+  <path d="M32 34 L58 19 L58 45 L32 60 Z" fill="url(#gradRight)" stroke="#ffffff" stroke-width="1.5" stroke-linejoin="round"/>
+</svg>

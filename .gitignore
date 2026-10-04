@@ -1,2 +1,23 @@
+# Dependencies
 node_modules/
 package-lock.json
+
+# Production build output
+dist/
+dist-ssr/
+
+# Vite temporary cache
+.vite/
+
+# Local env files
+*.local
+.env*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea/
+
+# OS metadata
+.DS_Store
+Thumbs.db

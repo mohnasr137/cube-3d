@@ -1,13 +1,23 @@
 {
-  "name": "test",
+  "name": "cude-3d",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
+  "description": "Interactive 3D geometry showcase built with Three.js and Vite",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite build && vite preview"
   },
+  "keywords": [
+    "threejs",
+    "vite",
+    "webgl",
+    "3d",
+    "icosahedron"
+  ],
+  "author": "",
+  "license": "MIT",
   "devDependencies": {
     "vite": "^5.4.1"
   },
